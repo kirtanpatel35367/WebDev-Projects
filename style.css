@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=M+PLUS+Rounded+1c:wght@500&family=Mukta:wght@500&family=Pacifico&family=Vujahday+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,9,121,1) 55%, rgba(0,212,255,1) 100%);}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 34%, rgba(0,212,255,1) 100%);    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 10px 10px px #121010;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    border: 0;
+    background: #ebfffc;
+    outline: 0;
+    color: #555;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.search_btn{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    cursor: pointer;
+    align-items: center;
+}
+.search_btn img{
+    width: 20px;
+}
+.search_btn:hover{
+    background-color: darkgrey;
+}
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right:10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size:14px;
+    margin-top: 10px;
+    display: none;
+}
